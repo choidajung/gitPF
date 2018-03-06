@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+h1{padding:150px 0;text-transform:uppercase;font-size:40px;}
+
+.list{font-family:'Noto Sans KR';font-weight:100;width:80%;margin:0 auto;overflow:hidden;margin-bottom:150px}
+.list > li{float:left;width:49%;background:#eee;height:495px;margin-bottom:2%;cursor:pointer;}
+.list > li:nth-child(odd){margin-right:2%}
+.list > li:nth-child(1){background:url('../images/03-portfolio_img01.png') #f2f2f2 no-repeat center center;}
+.list > li:nth-child(2){background:url('../images/03-portfolio_img02.png') #fcfaf5 no-repeat center center}
+.list > li:nth-child(3){background:url('../images/03-portfolio_img03.png') #f0f6ff no-repeat center center}
+.list > li:nth-child(4){background:url('../images/03-portfolio_img04.png') #f5f2f9 no-repeat center center;}
+.list > li:nth-child(5){background:url('../images/03-portfolio_img05.png') #012b35 no-repeat center  center;}
+.list > li:nth-child(6){background:#fcf8e6}
+
+.hoverBox{width:100%;height:100%;background:#fff;color:#444}
+.hoverBox h2{font-size:40px;width:80%;border-bottom:1px solid #999;text-transform:uppercase;margin:0 auto;padding:170px 0 45px;margin-bottom:30px;}
+.hoverBox p{font-size:22px;text-transform:capitalize;}
+.hoverBox .tool{margin:95px auto 0;}
+.hoverBox .tool li{display:inline-block;border-right:1px solid #999;text-transform:capitalize;padding-right:10px;margin-right:10px;font-size:14px;}
+.hoverBox .tool li:last-child{border:none;padding:0;margin:0}
+
+.list > li:hover > .hoverBox{display:none;}

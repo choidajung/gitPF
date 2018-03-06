@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+/* font-family: 'Press Start 2P', cursive; */
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+@font-face{
+	font-family:neo;
+	font-weight:300;
+	src:url("../../fonts/neodgm-snapshot-latest.eot");
+	src:local("※"), url("../../fonts/neodgm-snapshot-latest.woff") format("woff")
+}
+
+body{font-family: 'Press Start 2P', '돋움', Dotum, sans-serif; line-height: 1.1;color:#222;text-align:center;}
+
+#gnbBox{position:fixed; width:440px;height:100%;color:#fff;z-index:10000;margin-left:-340px;}
+#btn{position:absolute;right:0;width:100px;padding:50px;box-sizing: border-box;cursor:pointer;}
+#btn div{width:40px;height:4px;background: #000;margin-bottom:8px;transition:0.5s;;}
+#btn div:last-child{margin:0;}
+#btn div:nth-child(1){transform-origin: 0% 100%; transform: rotate(0deg)}
+#btn.on div:nth-child(1){transform-origin: 0% 100%; transform: rotate(36deg)}
+#btn.on div:nth-child(2){opacity:0;}
+#btn div:nth-child(3){transform-origin: 0% 0%; transform: rotate(0deg)}
+#btn.on div:nth-child(3){transform-origin: 0% 0%; transform: rotate(-36deg)}
+#gnb{position:absolute;left:0;width:340px;height:100%;background: #000}
+#gnb ul{position:absolute;top:50%;left:0;right:0;margin-top:-200px;}
+#gnb li{margin-bottom:60px;}
+#gnb li:last-child{margin:0;}
+#gnb li a{display: block;padding:15px;}
+#gnb li a:hover{background:url('../images/gnb_arrow.png') no-repeat 10% 50%;}
+
+footer{font-family:'Noto Sans KR';font-weight:100;color:#888;width:100%;height:100px;line-height:100px;text-align:left;font-size:14px;}
+footer p{width:80%;margin:0 auto;}
