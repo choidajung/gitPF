@@ -1,0 +1,18 @@
+@charset 'utf-8';
+
+#container{text-transform:uppercase;padding-bottom:100px;overflow:hidden;}
+#main_tit{width:100%;height:300px;background:url('images/sub_intro_tit.jpg') no-repeat 50% 50%;color:#fff;padding-top:80px;text-align:center;}
+#main_tit h2{top:150px;left:50%;margin-left:-64.5px;font-size:35px;font-weight:400;}
+ #main_tit section{float:left;width:240px;font-size:20px;font-weight:100;}
+ #main_tit section a{display:block;width:240px;height:70px;padding-top:230px;}
+#main_tit section a:hover{background:rgba(95, 0, 170, .2);}
+
+#content .sub_tit{text-align:center;padding-top:60px;padding-bottom:60px;}
+#content .sub_tit h3{font-family:'Orbitron';font-size:35px;}
+#content .sub_tit .line{margin-bottom:55px}
+#content .sub_tit strong{font-size:20px;font-weight:400;}
+#content .cnt_01 .txt_box{width:450px;text-indent:7px;font-size:14px;text-align:justify;padding-top:5px;}
+#content .cnt_01 .txt_box p{margin-bottom:20px;}
+#content .cnt_01 .txt_box p span{display:block;}
+#content .cnt_01 .txt_box p.name{text-align:right;font-size:16px;padding-top:50px;margin:0;}
+#content .cnt_01 .txt_box p.name em{font-size:18px;font-weight:400;}

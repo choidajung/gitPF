@@ -1,0 +1,63 @@
+@charset 'utf-8';
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500');
+/* font-family: 'Orbitron', sans-serif; */
+
+
+.size{width:960px;margin:0 auto}
+.f_l{float:left}
+.f_r{float:right}
+.p_r{position:relative}
+.p_a{position:absolute}
+.line{width:75px;height:27px;border-bottom:5px solid #5f00aa;margin:0 auto}
+
+body{font-family:'Noto Sans KR', '맑은 고딕', 'malgun gothic', '돋움', Dotum;line-height:1.2;color:#444;font-weight:300;}
+
+header{position:fixed;z-index:1000;background:rgba(0, 0, 0, 0.5);width:100%;height:80px;border-bottom:0.1px solid #aaa;color:#fff}
+header #logo{top:16px;left:20px}
+header #logo img{width:60px}
+header #menuBtn{top:23px;right:20px;cursor:pointer;width:45px;height:80px}
+header #menuBtn img{width:45px}
+header #menu{display:none;position:fixed;width:100%;height:100%;background:rgba(75, 33, 130, 0.95);text-align:center}
+header #menuBtn_x{top:23px;right:20px;cursor:pointer;width:45px;height:80px}
+header #menuBtn_x img{width:45px}
+header #menu .menuLogo{width:200px;padding-top:50px;}
+header #menu ul > li > a{display:inline-block;font-size:25px;opacity:0.7;font-weight:400}
+header #menu .gnbMT{margin:60px 0 20px}
+header #menu ul li ul{overflow:hidden;}
+header #menu ul li ul li{display:inline-block;width:200px;height:22px;padding-right:5px;border-right:1px solid #aaa;margin-right:5px;}
+header #menu ul li ul li a{width:189px;height:22px;font-size:18px;font-weight:300}
+header #menu ul li ul li:last-child{margin:0;padding:0px;border:none}
+header #menu ul li a:hover{transform:scale(1.2);opacity:1}
+
+footer{background:#333;color:#eee;font-weight:100;font-size:13px;width:100%;overflow:hidden;}
+footer a:hover{color:#987FBA;}
+footer ul li{display:inline-block;}
+footer .sns{height:210px;border-bottom:1px solid #aaa;padding-top:45px;text-align:center;}
+footer .sns img.logo{width:100px;}
+footer .sns p{font-size:18px;padding-top:25px;padding-bottom:25px;}
+footer .sns ul li{padding-left:40px;}
+footer .sns ul li:first-child{padding:0;}
+footer .sns ul li img{width:18px;transition:0.3s;}
+footer .sns ul li img:hover{transform:scale(1.8);}
+footer .info{margin:25px 0;}
+footer .info:after{display: block;clear: both;content: ""}
+footer .info .left_cnt{text-align:left;}
+footer .info .right_cnt{text-align:right}
+footer .info li{vertical-align:middle;padding-right:13px;border-right:1px solid #c8c8c8;margin-right:8px;line-height:13px}
+footer .info li:last-child{padding:0;margin:0;border:none;}
+footer .info .left_cnt strong{display:block;margin:18px 0 3px;font-size:16px;font-weight:300;}
+footer .info .right_cnt p{color:#c8c8c8;margin-top:5px;font-size:11px;}
+
+footer .info .right_cnt .porfol{position: relative;font-size:18px;margin-left:100px;z-index: 10}
+footer .info .right_cnt .porfol .btn{border:1px solid #666666;padding:5px;width:185px;text-align: left;background: url('arrow_up.png') no-repeat 95% 50%;cursor: pointer;}
+footer .info .right_cnt .porfol .btn.on{background: url('arrow_down.png') no-repeat 95% 50%}
+footer .info .right_cnt .porfol ul{position:absolute;left:0;bottom:30px;text-align: left;width:195px;background:#333;border:1px solid #666;border-bottom:none;display: none;}
+footer .info .right_cnt .porfol ul li a{display:block;width:100%;padding:10px;}
+footer .info .right_cnt .porfol ul li{width:100%;box-sizing: border-box;border:none;}
+footer .info .right_cnt .porfol ul li:hover{background: #5f00aa;}
+footer .info .right_cnt .porfol ul li:hover a{color:#fff;}
+
+footer .info .right_cnt .util{padding-top:5px;}

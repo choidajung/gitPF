@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+#container{width:100%;height:1080px;color:#fff;font-family: 'Orbitron';font-size:30px}
+section{float:left;height:1080px;text-align:center;text-transform:uppercase}
+section:nth-child(1){background:url("images/sub_project_img01.jpg") no-repeat 50% 0;width:33%}
+section:nth-child(2){background:url("images/sub_project_img02.jpg") no-repeat 50% 0;width:34%}
+section:nth-child(3){background:url("images/sub_project_img03.jpg") no-repeat 50% 0;width:33%}
+section a{display:block;width:100%;height:690px;padding-top:390px}
+section a em{display:block;width:300px;height:183px;border:1px solid #fff;margin:0 auto;padding-top:117px}
+section a em span{display:block}
+section a:hover{background:rgba(95, 0, 170, .2)}
+section a:hover em{height:230px;padding-top:70px;background:url("images/sub_project_hover.png") no-repeat 50% 75%}
+
+
+
+
+
+
+
+
