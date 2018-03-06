@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+#mainTit{width:100%;height:250px;background: url('../images/sub_mainTit_img01.jpg') no-repeat center bottom;padding-top:60px;color:#fff;font-size:48px;line-height: 250px;font-family: 'Raleway';font-weight: 200}
+
+#subGnb{width:100%;height:100px;font-size:18px;}
+#subGnb ul{height: 100px;line-height: 100px;width:667px;margin:0 auto;}
+#subGnb ul li{float:left;}
+#subGnb ul li{padding:0 20px;}
+#subGnb ul li a:hover, #subGnb ul li a.on{color:#85a3ed;border-bottom:1px solid #85a3ed;}
+
+#content{width:80%;margin:0 auto;}
+#content .mainWrap{width:100%;height:700px;}
+#content .mainImg, #content .mainInfo{float:left;width:50%;height:700px}
+#content .mainImg{background: url('../images/sub_product_main_img01.png') no-repeat center center}
+#content .mainInfo{padding:160px;box-sizing: border-box;text-align: left;}
+#content .mainInfo p{font-size:24px;margin-bottom:10px;}
+#content .mainInfo strong{display:block;font-size:18px;margin-bottom:80px;}
+#content .mainInfo ul li{float:left;}
+#content .mainInfo .quantity{font-size:18px;margin-top: 45px}
+#content .mainInfo .quantity li{height: 25px;line-height: 25px;text-align: center}
+#content .mainInfo .quantity li:first-child{margin-right:30px;}
+#content .mainInfo .quantity li.box{width:25px;border: 1px solid #999;}
+#content .mainInfo .quantity li:nth-child(2){border-right:none;cursor: pointer;}
+#content .mainInfo .quantity li:nth-child(4){border-left:none;cursor: pointer;}
+#content .mainInfo .buy{margin-top:85px;}
+#content .mainInfo .buy li{width:49%;background: #85a3ed;height: 64px;line-height: 64px;text-align: center;color:#fff;font-size:18px;font-family: 'Raleway';cursor: pointer;font-weight: 200}
+#content .mainInfo .buy li:first-child{margin-right:2%;}
+#content .mainInfo ul:after{display: block;clear: both;content: "";}
+
+#content .prodInfo{line-height: 1.3;text-transform: none}
+#content .prodInfo .logo{width:100%;height:450px;background: url('../images/sub_info_logo.png') no-repeat 50% 40% }
+#content .prodInfo h3{font-size:33px;color:#85a3ed;font-weight: 300;margin-bottom:5px;}
+#content .prodInfo .infoSub{color:#85a3ed;font-size:20px;}
+#content .prodInfo .blank{margin-top:30px;}
+#content .prodInfo .ingBtn{color:#85a3ed;font-size:20px;margin:60px 0 10px;cursor: pointer;}
+#content .prodInfo .ingBtn em{display:block;font-size:14px;line-height: 14px;}
+#content .prodInfo .ingredient{width:70%;background: #fff;padding:20px;box-sizing: border-box;text-align: left;display: none;margin:0 auto;}
+#content .prodInfo .ingredient p span{color:#85a3ed;}
+#content .prodInfo .ingredient p:first-child{margin-bottom:30px;}
+#content .prodInfo .ingredient div.sky{display:inline-block;width:12px;height:12px;background: #85a3ed;border-radius: 50px;}
+#content .prodInfo .ingredient p.sky{display:inline-block;color:#85a3ed;margin-left:10px;}
+#content .prodInfo .ingredient em{display: block;}
+#content .prodInfo .ingredient div.grey{display:inline-block;width:12px;height:12px;background: #666;border-radius: 50px;}
+#content .prodInfo .ingredient p.grey{display:inline-block;margin-left:10px;}
+#content .prodInfo .ingredient p:last-child{margin-top:40px;}
+
+#content .infoBox{width:70%;margin:70px auto;border:1px solid #85a3ed;padding:30px;box-sizing: border-box;text-align: left}
+#content .infoBox h4{color:#85a3ed;font-size:26px;font-family: 'Raleway';font-weight: 200;margin-bottom:30px;}
+#content .infoBox h4:nth-of-type(2){margin-top:70px;}
+#content .infoBox ul li strong{display:inline-block;font-weight: 300;margin-bottom:8px;}
+#content .infoBox p{line-height: 1.4;width:80%;}
+#content .infoBox ul li{margin-bottom:40px;}
+#content .infoBox ul li:last-child{margin:0;}
+
+#content h2{text-align: left;color:#85a3ed;font-family: 'Raleway'; font-size: 30px;border-bottom:1px solid #85a3ed;font-weight: 200;text-indent: 20px;line-height: 1.3}
+
+#content .collection ul{overflow: hidden;}
+#content .collection ul li{float:left;width:25%;cursor: pointer;}
+#content .collection ul li:hover{color:#85a3ed;}
+#content .collection ul li .imgBox{height:430px;}
+#content .collection ul li:nth-child(1) .imgBox{background: url('../images/sub_collection_img01.jpg') no-repeat center bottom}
+#content .collection ul li:nth-child(2) .imgBox{background: url('../images/sub_collection_img02.jpg') no-repeat center bottom}
+#content .collection ul li:nth-child(3) .imgBox{background: url('../images/sub_collection_img03.jpg') no-repeat center bottom}
+#content .collection ul li:nth-child(4) .imgBox{background: url('../images/sub_collection_img04.jpg') no-repeat center bottom}
+#content .collection ul li .txtBox{height: 150px;}
+#content .collection ul li .txtBox strong{display:inline-block;font-size:18px;margin-bottom:5px;}
+#content .collection ul li .txtBox p{font-size:14px;margin-bottom:25px;}
+
+#content .reviews ul li div{display:inline-block;line-height: 1.2;text-transform: none;vertical-align: middle;}
+#content .reviews ul li div.star{width:12%;}
+#content .reviews ul li div.txt{width:64%;text-align: left}
+#content .reviews ul li div.date{width:12%;}
+#content .reviews ul li div.name{width:12%;}
+#content .reviews ul li{overflow: hidden;padding:20px 0;border-bottom:1px solid #d4e2fc;box-sizing: border-box;}
+#content .reviews .review{float:right;padding:10px 15px;background: #85a3ed;color:#fff;cursor: pointer;margin:30px 0 100px;}
+
+
+#content:after{display: block;clear: both;content: "";}
+
+@media screen and (max-width: 1024px){
+	#mainTit{padding-top:120px;}
+	#content{width:100%;}
+	#content .mainWrap{height:500px;}
+	#content .mainImg{background-size: 250px;height: 500px;}
+	#content .mainInfo{padding:100px 60px;height: 500px;}
+	#content .mainInfo .buy{margin-top:50px;}
+	#content .mainInfo strong{margin-bottom:40px;}
+	#content .imgBox{width:100%;}
+	#content .imgBox img{width:80%;}
+	#content .infoBox{width:85%;}
+	#content .infoBox p{width:100%;}
+	#content .reviews .review{margin-right:30px;}
+	#content .collection ul li:nth-child(1n+1) .imgBox{background-size: 300px}
+	#content .collection ul li .imgBox{height:320px;}
+	#content .reviews ul li div.star{width:15%;}
+	#content .reviews ul li div.txt{width:55%;}
+	#content .reviews ul li div.date{width:15%;}
+	#content .reviews ul li div.name{width:15%;}
+
+}
+
+@media screen and (max-width: 480px){
+	#mainTit{padding-top:50px;height:150px;line-height: 150px;background-size: cover;}
+	#subGnb{display: none;}
+	#content .mainWrap{height:600px;margin-top:20px;}
+	#content .mainImg{width:100%;background-size: 190px;height: 300px;}
+	#content .mainInfo{width:100%;padding:30px;height: 300px;}
+	#content .mainInfo strong{font-size:14px;margin-bottom:40px;}
+	#content .mainInfo p{font-size:16px;}
+	#content .mainInfo .quantity{font-size:16px;margin-top:45px}
+	#content .mainInfo .buy{margin-top:30px;}
+	#content .mainInfo .buy li{height: 40px;line-height: 40px;font-size:16px;}
+	#content .prodInfo .logo{height:300px;background-size: 180px;}
+	#content .prodInfo h3{font-size:25px;}
+	#content .prodInfo .infoSub{font-size:18px;}
+	#content .imgBox img{width:95%;}
+	#content .prodInfo > p{font-size:14px;width:95%;margin:0 auto;}
+	#content .prodInfo .ingredient{width:95%;}
+	#content .infoBox{width:95%;padding:15px;}
+	#content .infoBox h4{font-size:22px;}
+	#content .infoBox p, #content .infoBox strong{font-size:14px;}
+	#content .collection ul li{width:50%;}
+	#content .collection ul li:nth-child(1n+1) .imgBox{background-size: 250px;}
+	#content .collection ul li .imgBox{height:220px;}
+	#content .collection ul li .txtBox strong{font-size:16px;}
+	#content .reviews ul li{padding:20px 10px;}
+	#content .reviews ul li div.txt{width:100%;margin:10px 0}
+	#content .reviews ul li div.star{width:100%;text-align: left}
+	#content .reviews ul li div.date, #content .reviews ul li div.name{width:50%;margin-top:15px;}
+	#content .reviews .review{float:none;margin:30px auto 100px;width:123px;}
+
+}

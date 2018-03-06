@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+#mainTit{width:100%;height:250px;background: url('../images/join_mainTit_img01.jpg') no-repeat center bottom;padding-top:60px;color:#fff;font-size:48px;line-height: 250px;font-family: 'Raleway';font-weight: 200}
+
+h2{font-size: 26px;width:100%;height: 160px;line-height: 160px;color:#85a3ed;font-weight: 300}
+#join{width:100%;}
+#join ul{width:80%;border-top:1px solid #85a3ed;border-bottom:1px solid #85a3ed;margin:0 auto;}
+#join ul li{display:inline-block;width:100%;padding:20px 0;overflow: hidden;vertical-align: middle;}
+#join ul li *{display: inline-block;float:left;}
+#join ul li label{width:15%;text-align: right;font-size:18px;color:#85a3ed;margin-right: 20px;}
+#join ul li:last-child label:nth-of-type(2){width:50px;}
+#join ul li input[type="text"], #join ul li input[type="password"]{width:170px;height:18px;border:1px solid #85a3ed;outline: none;font-family:'Noto Sans KR'}
+#join ul li select{font-size:14px;width:75px;padding-left:10px;border:1px solid #85a3ed;color:#666;font-family:'Noto Sans KR';font-weight: 100;}
+#join ul li em{font-size: 14px;line-height: 18px;margin-left:25px;}
+#join ul li:nth-last-child(3) div{width:32px;height:24px;background: url('../images/join_phone_img01.png') no-repeat center center;}
+#join ul li:nth-last-child(3) input{width:100px;}
+#join ul li:nth-last-child(2) input{width:300px;}
+#join ul li button{width:140px;height:24px;background: #85a3ed;color:#fff;outline: none;border: none;line-height: 24px;margin-left:20px;}
+#join ul li span{color:#85a3ed;font-weight: 300;line-height: 18px;}
+
+section{width:80%;margin:100px auto 0;text-align: left;}
+section h3{color:#85a3ed;font-size:26px;text-indent: 20px;line-height: 1.4}
+section > div{width:100%;height:250px;padding:24px;box-sizing: border-box;border-top:1px solid #85a3ed;border-bottom:1px solid #85a3ed;overflow: hidden;margin-bottom:8px;padding-right: 0}
+section div .txt{width:100%;height:202px;overflow-y: scroll;padding-right: 10px;box-sizing: border-box;}
+section div .txt p{margin:0 0 20px}
+section em{margin-left:50px;line-height: 1.4;color:#85a3ed;margin-right:20px;}
+section label{color:#85a3ed;font-weight: 300}
+
+.joinBtn{padding-top:100px;margin-bottom:150px;}
+.joinBtn *{width:190px; background: #85a3ed;color:#fff;border:none;outline: none;height: 60px;line-height: 60px;font-size:18px;cursor: pointer;}
+
+@media screen and (max-width: 1024px){
+	#mainTit{padding-top:120px;}
+	#join ul li label{width:20%;text-align: right;font-size:16px;margin-right: 20px;}
+	#join ul li em{display:block;margin:0;width:100%;text-align: left;padding-left:23%;}
+	
+}
+
+@media screen and (max-width: 480px){
+	#mainTit{display: none}
+	h2{padding-top:50px;height:60px;line-height:60px;font-size:20px;}
+	#join ul{width:100%;}
+	#join ul li label{width:100%;font-size:18px;margin-right:0;text-align: left;text-indent:10%;}
+	#join ul li em{display:block;width:80%;padding-left:0;font-size:12px;box-sizing: border-box;text-align: left;margin-left: 10%}
+	#join ul li button{margin:8px 0;margin-left:33%;}
+	#join ul li{padding:20px 0 5px;}
+	#join ul li input[type="text"], #join ul li input[type="password"]{display:block;width:80%;margin-left:10%;height:35px;margin-top:5px;border:1px solid #bdd1f4;font-size:20px;line-height: 22px;text-indent:10px;color:#666;}
+	#join ul li:nth-last-child(3) input{width:26%;margin-left:0;}
+	#join ul li:nth-last-child(3) div{width:5%;height:39px;margin-top:5px;background-size: cover;}
+	#join ul li:last-child label{width:70%}
+	#join ul li:last-child label[for="agree"]{width:20%;font-size:14px;text-indent: 0}
+	#join ul li:last-child{margin-bottom:20px;}
+	#join ul li:last-child span{font-size:14px;}
+	#join ul li select{width:18%;padding-left:10px; height:39px;border:none;border:1px solid #bdd1f4;margin-top:5px;margin-left:10%;}
+	section{width:100%;font-size:14px;margin-top:50px;}
+	section > div{height: 200px;display: none;}
+	section div .txt{padding-right: 20px;font-size:12px;height:152px;}
+	section em{margin-right:5px;margin-left:15px;}
+	section h3{font-size: 20px;background: url('../images/sub_arrow_down.png') no-repeat 90% 50%;margin-bottom:15px;}
+	.joinBtn{padding-top:80px;margin-bottom:90px;}
+	.joinBtn *{width:100px; height: 40px;line-height: 40px;font-size:16px;}
+
+
+}
