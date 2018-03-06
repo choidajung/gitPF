@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700');
+/* font-family: 'Nanum Myeongjo', serif; */
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+body{font-family: 'Noto Sans KR', NanumSquare,Dotum,"돋움",Helvetica,AppleSDGothicNeo,sans-serif;color:#444;font-weight: 300}
+
+#mainTit{position:relative;color:#fff;width:100%;height: 900px;text-align: center;background: #000}
+#mainTit .bg li{position:absolute;top:0;left:0;width:100%;height: 900px;opacity: 0;transition: 3.2s}
+#mainTit .bg li.on{opacity: 1;}
+#mainTit .bg li:nth-child(1){background: url('images/tit_bg_img01.jpg') no-repeat 50% 50%;background-size:cover;}
+#mainTit .bg li:nth-child(2){background: url('images/tit_bg_img02.jpg') no-repeat 50% 50%;background-size:cover;}
+#mainTit .bg li:nth-child(3){background: url('images/tit_bg_img03.jpg') no-repeat 50% 50%;background-size:cover;}
+#mainTit .bg li:nth-child(4){background: url('images/tit_bg_img04.jpg') no-repeat 50% 50%;background-size:cover;}
+#mainTit .bg li:nth-child(5){background: url('images/tit_bg_img05.jpg') no-repeat 50% 50%;background-size:cover;}
+#mainTit .txtTit{position:absolute;top:158px;left:50%;margin-left:-176px;font-family: 'Nanum Myeongjo', 'batang' , serif;}
+#mainTit .txtTit .titBox{padding-top:40px;padding-bottom:15px;border:1px solid #fff;}
+#mainTit .txtTit .titBox .small{font-size:25px;}
+#mainTit .txtTit .titBox .line{width:220px;height: 1px;background: #fff;margin:10px auto;}
+#mainTit .txtTit .titBox .big{font-size:58px;}
+#mainTit .txtTit .titBox .ch{font-size: 300px;}
+#mainTit .txtTit .date{font-size: 31px;margin:8px 0 4px;}
+#mainTit .txtTit .place{font-size: 30px;}
+#mainTit .partner{position: absolute;bottom:20px;left:50%;width:960px;margin-left:-480px;font-weight: 100}
+#mainTit .partner li{float:left;text-transform: uppercase;}
+#mainTit .partner li:first-child{margin-right:70px;}
+#mainTit .partner li:last-child{float:right;}
+#mainTit .partner li span{font-weight: 400;margin-right:10px;}
+
+nav{width:100%;color:#fff;position: absolute;top:900px;}
+nav .bar{width:100%;height: 70px;background: #012B35;font-weight: 100}
+nav .bar .logo{float:left;padding-top:10px;margin-left:25px;}
+nav .bar .logo img{width:80px;}
+nav .bar .gnb{width:55%;margin:0 auto;line-height: 70px;font-size: 18px;}
+nav .bar .gnb li{float:left;width:25%;text-align: center;cursor: pointer;}
+nav .bar .gnb li:hover, nav .bar .gnb li.on{height:80px;background: #024F5B }
+nav .bar .gnb li a{display: block;width:100%;height: 70px;}
+nav .bar .ticket{float: right;line-height: 70px;background: #000}
+nav .bar .ticket a{display: block;widows: 100%;height: 70px;padding:0 50px;}
+nav .bar .ticket a:hover{background: url('images/ticket_arrow.png') no-repeat 60% 50%}
+nav.fix{position:fixed;top:0;left:0;z-index: 10000}
+
+#intro{margin-top:70px;text-align: center;}
+#intro .tit{padding-top:125px;font-family: 'Nanum Myeongjo', 'batang' , serif;color:#012B35;width:515px;margin:0 auto;}
+#intro .tit p:nth-child(1){text-align: right;font-size: 26px;padding-right:15px;font-weight: 700}
+#intro .tit p:nth-child(2){font-size: 56px;text-transform: uppercase;border-bottom:2px solid #012b35;}
+#intro .tit p:nth-child(3){font-size:32px;margin-top:3px;}
+#intro .tit_artist{font-size:22px;margin-top:80px;font-weight: 400}
+#intro .explain{font-size:18px;font-weight: 300}
+#intro .explain.blank{margin-top:65px;margin-bottom:25px;}
+#intro .explain span{display: block;}
+#intro .banner{width:100%;height:260px;background: url('images/intro-bg-img01.jpg') no-repeat 50% 50%;background-attachment: fixed;background-size: cover;margin-top:105px;}
+#intro .zola{font-size: 20px;color:#939598;font-family: 'Nanum Myeongjo', 'batang' , serif;margin-top:40px;padding-bottom:200px;}
+
+#artist{padding-top:70px;width:100%;height: 800px;position: relative;overflow: hidden;}
+#artist section{width:50%;height: 800px;float: left;overflow: hidden;}
+#artist ul{overflow: hidden;width:3840px;margin-left:0;}
+#artist ul li{width:960px;height: 800px;float:left;}
+#artist .goghImg{background: url('images/artist_bg_img01.jpg') no-repeat 50% 50%;background-size: cover;}
+#artist .renoirImg{background: url('images/artist_bg_img02.jpg') no-repeat 50% 50%;background-size: cover;}
+#artist .monetImg{background: url('images/artist_bg_img03.jpg') no-repeat 50% 50%;background-size: cover;}
+#artist .deGasImg{background: url('images/artist_bg_img04.jpg') no-repeat 50% 50%;background-size: cover;}
+#artist .left h4 .name{font-size:55px;font-family: 'Nanum Myeongjo', 'batang' , serif;color:#012b35;padding-left:10%;padding-top:330px;}
+#artist .left h4 .name em{font-size: 30px;margin-right: 15px;margin-bottom:10px;}
+#artist .left h4 .line{height: 2px;width:90%;background: #012b35;margin: 5px 0;}
+#artist .left h4 .nameEn{font-family: 'Nanum Myeongjo', 'batang' , serif;color:#012b35;padding-left:11%;font-size:26px;text-transform: capitalize;font-weight: 700}
+#artist .left h4 .explain{width:100%;padding:0 10%;box-sizing: border-box;text-align:justify;text-indent: 8px;margin-top:130px;line-height: 1.2}
+
+#artist .right h4 .name{font-size:55px;font-family: 'Nanum Myeongjo', 'batang' , serif;color:#012b35;padding-right:10%;padding-top:330px;text-align: right}
+#artist .right h4 .name em{font-size: 30px;margin-right: 15px;margin-bottom:10px;}
+#artist .right h4 .line{height: 2px;width:90%;background: #012b35;margin: 5px 0;margin-left:10%;}
+#artist .right h4 .nameEn{font-family: 'Nanum Myeongjo', 'batang' , serif;color:#012b35;padding-right:11%;font-size:26px;text-transform: capitalize;font-weight: 700;text-align: right;}
+#artist .right h4 .explain{width:100%;padding:0 10%;box-sizing: border-box;text-align:justify;text-indent: 8px;margin-top:130px;line-height: 1.2}
+#artist .btn{position:absolute;bottom:10px;width:100%;height: 50px;}
+#artist .btn ul{overflow: hidden;width:100%;}
+#artist .btn ul li{width:50px;height: 50px;cursor: pointer;margin:0 10px;}
+#artist .btn ul li.leftBtn{float:left;background: url('images/artist_btn_left_basic.jpg.png') no-repeat 50% 50%;}
+#artist .btn ul li.rightBtn{float:right;background: url('images/artist_btn_right_basic.jpg.png') no-repeat 50% 50%}
+#artist .btn ul li.leftBtn:hover{background: url('images/artist_btn_left_hover.jpg.png') no-repeat 50% 50%}
+#artist .btn ul li.rightBtn:hover{background: url('images/artist_btn_right_hover.jpg.png') no-repeat 50% 50%}
+
+#info{width:100%;padding-top:200px;}
+#info .subTit01{position:relative;width:100%;height: 240px;}
+#info .subTit01 .bg{position:absolute;top:0;left:0;width:50%;height: 240px;background: #012b35}
+#info .subTit01 .sub01Txt{position:absolute;top:0;left:50%;margin-left:-480px;color: #fff;width:960px;background: #012b35;height: 240px;transform: skew(15deg);}
+#info .subTit01 .sub01Txt p{transform: skew(-15deg);font-family: 'Nanum Myeongjo', 'batang' , serif;font-size:36px;padding-top:130px;line-height: 1.2}
+#info .subTit01 .sub01Txt p span{display: block;}
+#info .subTit01 .sub01Txt p span em{font-size: 22px;}
+#info .infoTxt{width:680px;margin:70px auto 5px;overflow: hidden;line-height: 1.2}
+#info .infoTxt li{float:left;width:50%;margin-bottom:40px;}
+#info .infoTxt li strong{display:block;font-size: 20px;color:#012b35;font-weight: 500;}
+#info .infoTxt li p{font-size:18px; padding-left:15px;margin-top:10px;}
+#info .infoTxt li span{display: block;font-size: 16px;}
+#info .infoTxt li:last-child{width:100%;}
+#info .infoTxt li:last-child p{display:inline-block;width:49%;font-size: 16px;padding:0;text-indent: 15px;}
+#info .infoTxt li:last-child p em{font-weight: 500;color:#012b35;margin-right: 5px;}
+#info .cost{width:960px;margin:0 auto;text-align: center;border-top:2px solid #012b35;border-bottom:2px solid #012b35;}
+#info .cost li{overflow: hidden;padding:20px 0;font-size:18px;}
+#info .cost li:first-child{font-size:20px;color:#012b35;border-bottom:1px solid #012b35;font-weight: 500}
+#info .cost li:first-child em{font-size:16px;}
+#info .cost section{float: left;}
+#info .cost section:nth-child(1){width:30%;}
+#info .cost section:nth-child(2){width:23%;}
+#info .cost section:nth-child(3){width:24%;}
+#info .cost section:nth-child(4){width:23%;}
+#info .costBtn{font-size: 20px;color:#012b35;width:960px;margin:10px auto;overflow: hidden;}
+#info .costBtn a{display: inline-block;padding:10px 0;border:1px solid #012b35;width:150px;text-align: center;float:right;margin-right: 10px;}
+#info .costBtn a:hover{background: #012b35;color:#fff;}
+#info  .freeCost{width:630px;margin:53px auto;}
+#info .freeCost strong{font-size: 20px;color:#012b35;font-weight: 400}
+#info .freeCost p{font-size:18px;text-indent: 20px;line-height: 1.2}
+#info .freeCost p:nth-of-type(1){margin-top:10px;}
+#info .freeCost p:last-child{margin-top:40px;}
+#info .subTit02{position:relative;width:100%;height: 55px;}
+#info .subTit02 .bg{position:absolute;top:0;right:0;width:50%;height:55px;background: #012b35}
+#info .subTit02 .sub02Txt{position:absolute;top:0;left:50%;margin-left:-480px;color: #fff;width:960px;background: #012b35;height: 55px;transform: skew(-20deg);}
+#info .subTit02 .sub02Txt p{transform: skew(20deg);font-family: 'Nanum Myeongjo', 'batang' , serif;font-size:24px;padding-top:20px;line-height: 1.2;text-align: right;text-transform: uppercase;}
+#info .docent{width:960px;margin:0 auto;height: 180px;}
+#info .docent li{float:left;width:50%;padding-top:50px;padding-left:100px;box-sizing: border-box;}
+#info .docent li strong{font-size: 20px;color:#012b35;font-weight: 400}
+#info .docent li p{font-size: 18px;text-indent: 15px;margin-top:10px;line-height: 1.2}
+#info .docent li span{display: block;}
+#info .caution{width:100%;background: #012b35;color:#fff;padding: 55px 0;line-height: 1.2}
+#info .caution strong{display:block;text-align: center;width:100%;font-size:20px;font-weight: 400}
+#info .caution section{width:960px;margin:60px auto 0;overflow: hidden;}
+#info .caution section ul{float:left;width:46%;}
+#info .caution section ul.leftTxt{text-align: right}
+#info .caution section ul.leftTxt .up{font-size: 20px;}
+#info .caution section ul.leftTxt .down{font-size:18px;margin-top:35px;}
+#info .caution section ul.rightTxt{font-size:18px;}
+#info .caution section ul:first-child{margin-right:8%;}
+#info .caution section ul li span{display: block;}
+
+#direct {width:100%;margin-top:50px;padding-top:150px;line-height: 1.2}
+#direct > p{font-size:20px;color:#666;width:960px;margin:0 auto;}
+#direct h5{font-size:30px;color:#012b35;font-weight: 400;width:960px;margin:0 auto;}
+#direct  ul{border-top:1px solid #012b35;width:960px;margin:0 auto;margin-top:10px;padding-top:15px;margin-bottom:50px;}
+#direct  ul li{padding: 15px 0;width:900px;margin:0 auto;}
+#direct  ul li strong{display:inline-block;width:15%;font-size: 20px;color:#012b35;font-weight: 400;vertical-align: top;}
+#direct  ul li span{display: block;}
+#direct  ul li p{display: inline-block;width:85%;font-size: 18px;}
+#direct  ul li:last-child strong{width:100%;}
+#direct  ul li:last-child p{width:100%;text-indent: 12px;margin-top:10px;}
+#direct  ul li:last-child p a{color:#999;}
+#direct  ul li:last-child p a:hover{color:#012b35;}
+#direct .map{width:100%;height: 533px;}
+
+footer{background: #000;color:#fff;padding:30px 0;}
+footer .wrap{width:960px;margin:0 auto;}
+footer .logoF{float:left;width:50%;height: 100px;background: url('images/logo.png') no-repeat 0 50%}
+footer .rightBoxF{float:right}
+footer .rightBoxF .porfol{position: relative;font-size:18px;margin-bottom:25px;z-index: 10000}
+footer .rightBoxF .porfol .btn{border:1px solid #666;padding:5px;width:200px;text-align: left;background: url('images/arrow_up.png') no-repeat 95% 50%;cursor: pointer;text-indent: 5px}
+footer .rightBoxF .porfol .btn.on{background: url('images/arrow_down.png') no-repeat 95% 50%}
+footer .rightBoxF .porfol ul{position:absolute;left:0;bottom:30px;text-align: left;width:210px;background:#000;border:1px solid #666;border-bottom:none;display: none;}
+footer .rightBoxF .porfol ul li a{display:block;width:100%;padding:10px;}
+footer .rightBoxF .porfol ul li:hover{background: #012b35;}
+footer .rightBoxF p{font-family: 'Nanum Myeongjo', 'batang' , serif;font-size: 18px;text-align: right;line-height: 1.2;}
+footer .partner{clear:both;padding-top:40px;}
+footer .partner li{float:left;text-transform: uppercase;font-weight: 100}
+footer .partner li:first-child{margin-right:70px;}
+footer .partner li:last-child{float:right;}
+footer .partner li span{font-weight: 400;margin-right:10px;}
