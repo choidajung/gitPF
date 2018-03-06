@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body{text-align:center}
+
+input{position:absolute;left:-9999px}
+label{float:left;cursor:pointer}
+p{width:0;height:0;overflow:hidden}
+
+.main{background:url("image/bg-main.jpg") no-repeat 50%;width:100%;min-width:1000px;height:950px}
+.event{background:url("image/bg-event.jpg") no-repeat 50%;width:100%;min-width:1000px;height:1875px}
+.play{padding-top:50px}
+.onlinetour{position:relative;background:url("image/bg-onlinetour.jpg") no-repeat 50%;width:100%;min-width:1000px;height:1655px}
+.onlinetour a{position:absolute;top:1128px;left:50%;margin-left:-126px}
+.wrap{position:relative;width:100%;min-width:1000px}
+.wrap .main_btn{position:absolute;left:50%;width:900px;height:160px;margin-left:-450px;}
+.wrap .main_btn label:nth-child(1){background:url("image/btn-west-main.jpg") no-repeat;width:300px;height:160px}
+.wrap .main_btn label:nth-child(2){background:url("image/btn-east-main.jpg") no-repeat;width:300px;height:160px}
+.wrap .main_btn label:nth-child(3){background:url("image/btn-north-main.jpg") no-repeat;width:300px;height:160px}
+.wrap #west:checked ~ div label:nth-child(1), .wrap div label:nth-child(1):hover{background:url("image/btn-west-check.jpg") no-repeat}
+.wrap #east:checked ~ div label:nth-child(2), .wrap div label:nth-child(2):hover{background:url("image/btn-east-check.jpg") no-repeat}
+.wrap #north:checked ~ div label:nth-child(3), .wrap div label:nth-child(3):hover{background:url("image/btn-north-check.jpg") no-repeat}
+.wrap .cnt_west .west_bg{background:url("image/bg-west.jpg") no-repeat 50%;width:100%;min-width:1000px;height:1300px}
+.wrap .cnt_east .east_bg{background:url("image/bg-east.jpg") no-repeat 50%;width:100%;min-width:1000px;height:1300px}
+.wrap .cnt_north .north_bg{background:url("image/bg-north.jpg") no-repeat 50%;width:100%;min-width:1000px;height:1300px}
+.wrap #west:checked ~ .cnt_east, .wrap #west:checked ~ .cnt_north{display:none}
+.wrap #east:checked ~ .cnt_west, .wrap #east:checked ~ .cnt_north{display:none}
+.wrap #north:checked ~ .cnt_west, .wrap #north:checked ~ .cnt_east{display:none}
+
+.wrap .cnt_west .west_btn{width:924px;margin:0 auto;padding:42px 0;overflow:hidden}
+.wrap .cnt_west .west_btn label:nth-child(1){background:url("image/btn_west_uk.jpg") no-repeat}
+.wrap .cnt_west .west_btn label:nth-child(2){background:url("image/btn_west_fr.jpg") no-repeat}
+.wrap .cnt_west .west_btn label:nth-child(3){background:url("image/btn_west_gm.jpg") no-repeat}
+.wrap .cnt_west .west_btn label:nth-child(4){background:url("image/btn_west_it.jpg") no-repeat}
+.wrap .cnt_west .west_btn label:nth-child(5){background:url("image/btn_west_bm.jpg") no-repeat}
+.wrap .cnt_west .west_btn label:nth-child(6){background:url("image/btn_west_sw.jpg") no-repeat}
+.wrap .cnt_west .west_btn label:nth-child(7){background:url("image/btn_west_nd.jpg") no-repeat;}
+.wrap .cnt_west .west_btn label:nth-child(8){background:url("image/btn_west_sp.jpg") no-repeat;}
+.wrap .cnt_west .west_btn label{width:98px;height:98px;margin-right:20px}
+.wrap .cnt_west .west_btn label:last-child{margin:0}
+.wrap .cnt_west #uk:checked ~ .west_btn label:nth-child(1), .wrap .cnt_west .west_btn label:nth-child(1):hover{background:url("image/btn_west_uk_chk.jpg")}
+.wrap .cnt_west #fr:checked ~ .west_btn label:nth-child(2), .wrap .cnt_west .west_btn label:nth-child(2):hover{background:url("image/btn_west_fr_chk.jpg")}
+.wrap .cnt_west #gm:checked ~ .west_btn label:nth-child(3), .wrap .cnt_west .west_btn label:nth-child(3):hover{background:url("image/btn_west_gm_chk.jpg")}
+.wrap .cnt_west #it:checked ~ .west_btn label:nth-child(4), .wrap .cnt_west .west_btn label:nth-child(4):hover{background:url("image/btn_west_it_chk.jpg")}
+.wrap .cnt_west #bm:checked ~ .west_btn label:nth-child(5), .wrap .cnt_west .west_btn label:nth-child(5):hover{background:url("image/btn_west_bm_chk.jpg")}
+.wrap .cnt_west #sw:checked ~ .west_btn label:nth-child(6), .wrap .cnt_west .west_btn label:nth-child(6):hover{background:url("image/btn_west_sw_chk.jpg")}
+.wrap .cnt_west #nd:checked ~ .west_btn label:nth-child(7), .wrap .cnt_west .west_btn label:nth-child(7):hover{background:url("image/btn_west_nd_chk.jpg");}
+.wrap .cnt_west #sp:checked ~ .west_btn label:nth-child(8), .wrap .cnt_west .west_btn label:nth-child(8):hover{background:url("image/btn_west_sp_chk.jpg");}
+.wrap .cnt_west .west_img{width:1000px;height:1130px;margin:0 auto}
+.wrap .cnt_west #uk:checked ~ .west_img{background:url("image/cnt_west_uk.jpg")}
+.wrap .cnt_west #fr:checked ~ .west_img{background:url("image/cnt_west_fr.jpg")}
+.wrap .cnt_west #gm:checked ~ .west_img{background:url("image/cnt_west_gm.jpg")}
+.wrap .cnt_west #it:checked ~ .west_img{background:url("image/cnt_west_it.jpg")}
+.wrap .cnt_west #bm:checked ~ .west_img{background:url("image/cnt_west_bm.jpg")}
+.wrap .cnt_west #sw:checked ~ .west_img{background:url("image/cnt_west_sw.jpg")}
+.wrap .cnt_west #nd:checked ~ .west_img{background:url("image/cnt_west_nd.jpg")}
+.wrap .cnt_west #sp:checked ~ .west_img{background:url("image/cnt_west_sp.jpg")}
+
+.wrap .cnt_east .east_btn{width:806px;margin:0 auto;padding:42px 0;overflow:hidden}
+.wrap .cnt_east .east_btn label{width:98px;height:98px;margin-right:20px}
+.wrap .cnt_east .east_btn label:nth-child(1){background:url("image/btn_east_cz.jpg") no-repeat}
+.wrap .cnt_east .east_btn label:nth-child(2){background:url("image/btn_east_au.jpg") no-repeat}
+.wrap .cnt_east .east_btn label:nth-child(3){background:url("image/btn_east_hg.jpg") no-repeat}
+.wrap .cnt_east .east_btn label:nth-child(4){background:url("image/btn_east_cr.jpg") no-repeat}
+.wrap .cnt_east .east_btn label:nth-child(5){background:url("image/btn_east_pl.jpg") no-repeat}
+.wrap .cnt_east .east_btn label:nth-child(6){background:url("image/btn_east_rm.jpg") no-repeat}
+.wrap .cnt_east .east_btn label:nth-child(7){background:url("image/btn_east_tk.jpg") no-repeat;}
+.wrap .cnt_east .east_btn label:last-child{margin:0}
+.wrap .cnt_east #cz:checked ~ .east_btn label:nth-child(1), .wrap .cnt_east .east_btn label:nth-child(1):hover{background:url("image/btn_east_cz_chk.jpg")}
+.wrap .cnt_east #au:checked ~ .east_btn label:nth-child(2), .wrap .cnt_east .east_btn label:nth-child(2):hover{background:url("image/btn_east_au_chk.jpg")}
+.wrap .cnt_east #hg:checked ~ .east_btn label:nth-child(3), .wrap .cnt_east .east_btn label:nth-child(3):hover{background:url("image/btn_east_hg_chk.jpg")}
+.wrap .cnt_east #cr:checked ~ .east_btn label:nth-child(4), .wrap .cnt_east .east_btn label:nth-child(4):hover{background:url("image/btn_east_cr_chk.jpg")}
+.wrap .cnt_east #pl:checked ~ .east_btn label:nth-child(5), .wrap .cnt_east .east_btn label:nth-child(5):hover{background:url("image/btn_east_pl_chk.jpg")}
+.wrap .cnt_east #rm:checked ~ .east_btn label:nth-child(6), .wrap .cnt_east .east_btn label:nth-child(6):hover{background:url("image/btn_east_rm_chk.jpg")}
+.wrap .cnt_east #tk:checked ~ .east_btn label:nth-child(7), .wrap .cnt_east .east_btn label:nth-child(7):hover{background:url("image/btn_east_tk_chk.jpg")}
+.wrap .cnt_east .east_img{width:1000px;height:1130px;margin:0 auto}
+.wrap .cnt_east #cz:checked ~ .east_img{background:url("image/cnt_east_cz.jpg")}
+.wrap .cnt_east #au:checked ~ .east_img{background:url("image/cnt_east_au.jpg")}
+.wrap .cnt_east #hg:checked ~ .east_img{background:url("image/cnt_east_hg.jpg")}
+.wrap .cnt_east #cr:checked ~ .east_img{background:url("image/cnt_east_cr.jpg")}
+.wrap .cnt_east #pl:checked ~ .east_img{background:url("image/cnt_east_pl.jpg")}
+.wrap .cnt_east #rm:checked ~ .east_img{background:url("image/cnt_east_rm.jpg")}
+.wrap .cnt_east #tk:checked ~ .east_img{background:url("image/cnt_east_tk.jpg")}
+
+.wrap .cnt_north .north_btn{width:688px;margin:0 auto;padding:42px 0;overflow:hidden}
+.wrap .cnt_north .north_btn label{width:98px;height:98px;margin-right:20px}
+.wrap .cnt_north .north_btn label:nth-child(1){background:url("image/btn_north_rs.jpg") no-repeat}
+.wrap .cnt_north .north_btn label:nth-child(2){background:url("image/btn_north_sw.jpg") no-repeat}
+.wrap .cnt_north .north_btn label:nth-child(3){background:url("image/btn_north_dm.jpg") no-repeat}
+.wrap .cnt_north .north_btn label:nth-child(4){background:url("image/btn_north_nr.jpg") no-repeat}
+.wrap .cnt_north .north_btn label:nth-child(5){background:url("image/btn_north_fl.jpg") no-repeat}
+.wrap .cnt_north .north_btn label:nth-child(6){background:url("image/btn_north_es.jpg") no-repeat}
+.wrap .cnt_north .north_btn label:last-child{margin:0}
+.wrap .cnt_north #rs:checked ~ .north_btn label:nth-child(1), .wrap .cnt_north .north_btn label:nth-child(1):hover{background:url("image/btn_north_rs_chk.jpg")}
+.wrap .cnt_north #swd:checked ~ .north_btn label:nth-child(2), .wrap .cnt_north .north_btn label:nth-child(2):hover{background:url("image/btn_north_sw_chk.jpg")}
+.wrap .cnt_north #dm:checked ~ .north_btn label:nth-child(3), .wrap .cnt_north .north_btn label:nth-child(3):hover{background:url("image/btn_north_dm_chk.jpg")}
+.wrap .cnt_north #nr:checked ~ .north_btn label:nth-child(4), .wrap .cnt_north .north_btn label:nth-child(4):hover{background:url("image/btn_north_nr_chk.jpg")}
+.wrap .cnt_north #fl:checked ~ .north_btn label:nth-child(5), .wrap .cnt_north .north_btn label:nth-child(5):hover{background:url("image/btn_north_fl_chk.jpg")}
+.wrap .cnt_north #es:checked ~ .north_btn label:nth-child(6), .wrap .cnt_north .north_btn label:nth-child(6):hover{background:url("image/btn_north_es_chk.jpg")}
+.wrap .cnt_north .north_img{width:1000px;height:1130px;margin:0 auto}
+.wrap .cnt_north #rs:checked ~ .north_img{background:url("image/cnt_north_rs.jpg")}
+.wrap .cnt_north #swd:checked ~ .north_img{background:url("image/cnt_north_sw.jpg")}
+.wrap .cnt_north #dm:checked ~ .north_img{background:url("image/cnt_north_dm.jpg")}
+.wrap .cnt_north #nr:checked ~ .north_img{background:url("image/cnt_north_nr.jpg")}
+.wrap .cnt_north #fl:checked ~ .north_img{background:url("image/cnt_north_fl.jpg")}
+.wrap .cnt_north #es:checked ~ .north_img{background:url("image/cnt_north_es.jpg")}
+
+.pageLink{background:url("image/bg_btm_link.jpg") no-repeat 50%;width:100%;min-width:1000px;height:120px}
+.pageLink div{width:1000px;margin:0 auto;overflow:hidden}
+.pageLink div a{display:inline-block;float:left;width:500px;height:120px}
+
+
+
+
+
