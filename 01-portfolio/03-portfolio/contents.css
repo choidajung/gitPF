@@ -16,7 +16,7 @@
 .contents section{position:relative;padding-top:60px;box-sizing: border-box;}
 .contents h4{position: absolute;padding-right:60px;transform: rotate(-90deg);text-transform: uppercase;text-align: right;transform-origin: 0 0;font-size:24px;font-weight: 700}
 
-.contents{font-family: 'Noto Sans KR', NanumSquare,Dotum,"돋움",Helvetica,AppleSDGothicNeo,sans-serif;text-align: left;line-height: 1.2}
+.contents{font-family:'Noto Sans KR', 'Spoqa Han Sans', NanumSquare,Dotum,"돋움",Helvetica,AppleSDGothicNeo,sans-serif;text-align: left;line-height: 1.2}
 .tit{height:400px;background: url('../images/contents/mainTit_handpia.jpg')no-repeat center center;color:#000;}
 .tit .txtG{padding-top:230px;padding-left:40px;}
 .tit .txtG p{font-size:18px;}
@@ -54,7 +54,7 @@
 .publishing h4{top:208px;left:40px;border-top:1px solid #47156d}
 .btn a{display:block;width:250px;height: 50px;font-size: 20px;border:1px solid #000;padding:0;line-height: 50px;text-align: center;margin:0 auto;margin-bottom: 50px;}
 .btn a:hover{background: #000;color:#fff;}
-.toList{font-size:18px;color:#999;width:200px;margin:120px auto;text-align: center;height: 30px;line-height: 35px;cursor: pointer;}
+.toList{font-size:18px;color:#999;width:200px;margin:120px auto;text-align: center;height: 30px;line-height: 32px;cursor: pointer;}
 .toList:hover{background: url("../images/03-portfolio_arrow.png") no-repeat center left}
 
 .europe .box960{position: relative;}

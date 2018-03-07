@@ -6,6 +6,9 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 /* font-family: 'Noto Sans KR', sans-serif; */
 
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+/* 'Spoqa Han Sans' */
+
 @font-face{
 	font-family:neo;
 	font-weight:300;
@@ -31,5 +34,5 @@ body{font-family: 'Press Start 2P', '돋움', Dotum, sans-serif; line-height: 1.
 #gnb li a{display: block;padding:15px;}
 #gnb li a:hover{background:url('../images/gnb_arrow.png') no-repeat 10% 50%;}
 
-footer{font-family:'Noto Sans KR';font-weight:100;color:#888;width:100%;height:100px;line-height:100px;text-align:left;font-size:14px;}
+footer{font-family:'Noto Sans KR', 'Spoqa Han Sans', NanumSquare,Dotum,"돋움",Helvetica,AppleSDGothicNeo,sans-serif;font-weight:100;color:#888;width:100%;height:100px;line-height:100px;text-align:left;font-size:14px;}
 footer p{width:80%;margin:0 auto;}
