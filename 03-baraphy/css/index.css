@@ -31,7 +31,7 @@ body{background: url('../images/index_banner_bg_img01.jpg') no-repeat 50% 10px;b
 #mainTit .mainBtn div.on{opacity: 1}
 
 #subGnb{width:100%;background: #fff;height: 60px;line-height: 60px;font-size:20px;}
-#subGnb ul{width:528px;height:60px;margin:0 auto;}
+#subGnb ul{width:530px;height:60px;margin:0 auto;}
 #subGnb ul li{float:left;}
 #subGnb ul li a{padding:0 10px;margin:0 10px;}
 #subGnb ul li a:hover{color:#85a3ed;}
