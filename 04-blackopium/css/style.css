@@ -10,10 +10,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Bungee+Outline');
 
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+/* 'Spoqa Han Sans' */
+
 /* General Styles for FUllpage Elements
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-body{font-family: 'Noto Sans KR', NanumSquare,Dotum,"돋움",Helvetica,AppleSDGothicNeo,sans-serif}
+body{font-family:'Noto Sans KR', 'Spoqa Han Sans', NanumSquare,Dotum,"돋움",Helvetica,AppleSDGothicNeo,sans-serif}
 
 html.fp-enabled,
 .fp-enabled body {
