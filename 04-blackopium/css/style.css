@@ -230,8 +230,8 @@ body * {
 }
 
 .section.active .black {
-  animation: cover .5s;
-  animation-delay: .5s;
+  animation: cover 1.2s;
+  animation-delay: 1s;
 }
 
 .overflow_white {
