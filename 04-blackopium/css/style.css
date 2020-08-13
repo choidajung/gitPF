@@ -230,7 +230,7 @@ body * {
 }
 
 .section.active .black {
-  animation: cover 1.2s;
+  animation: cover 1.3s;
   animation-delay: 1s;
 }
 
